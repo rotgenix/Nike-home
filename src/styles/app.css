@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* //Navbar */
+.navbar {
+    /* background-color: rgb(88, 88, 88); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95vw;
+    height: 72px;
+    margin-inline: 30px;
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+.navigation ul a {
+    text-decoration: none;
+    color: #2e2e2e;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav-btns button {
+    all: unset;
+    background-color: #d01c28;
+    padding: 6px 16px;
+}
+
+.nav-btns button:hover {
+    cursor: pointer;
+}
+
+
+/* Main Section  */
+.main-section {
+    /* background-color: rgb(233, 39, 39); */
+    display: flex;
+    max-width: 1125px;
+    justify-content: space-between;
+    margin-inline: auto;
+    margin-block: 40px;
+    /* height: calc(100vh-72px); */
+}
+
+.text-container {
+    /* background-color: rgb(40, 37, 37); */
+    display: flex;
+    flex-direction: column;
+    max-width: 595px;
+    gap: 36px;
+}
+
+.text-container h1 {
+    font-size: 108px;
+    font-weight: 800;
+    line-height: 102px;
+    letter-spacing: 0px;
+}
+
+.tagline {
+    max-width: 404px;
+    /* font-size: 16px; */
+    font-weight: 500;
+    color: gray;
+}
+
+.btns {
+    display: flex;
+    gap: 40px;
+}
+
+.shop-now {
+    all: unset;
+    background-color: #d01c28;
+    padding: 6px 16px;
+    font-size: 18px;
+
+}
+
+.category {
+    all: unset;
+    /* background-color: #d01c28; */
+    border: 1px solid black;
+    padding: 6px 16px;
+    font-size: 18px;
+}
+
+.available div {
+    display: flex;
+    gap: 15px;
+}
+
+.av-p {
+
+    font-size: 18px;
+    /* font-weight: 500; */
+    /* color: gray; */
+}
+
+.img-container {
+    /* background-color: rgb(88, 1, 1); */
+    display: flex;
+    width: 530px;
+    justify-content: center;
+    flex-grow: 0;
+    align-items: center;
+}
