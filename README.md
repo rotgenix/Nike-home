@@ -12,7 +12,7 @@ It is fully responsive for all the devices.
 ![App Screenshot](https://raw.githubusercontent.com/rotgenix/nike-home/main/src/images/Screenshot%20(690).png)
 
 
-## Running Tests
+## Run locally
 
 To run the app on your local device
 Clone the repo from here in your device
